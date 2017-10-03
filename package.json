@@ -1,0 +1,52 @@
+{
+  "name": "lyrics-compositor-react-graphql",
+  "version": "1.0.0",
+  "description":
+    "Full Stack App with Node.js + GraphQL Express server and React.js + Apollo Client.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url":
+      "https://github.com/bermanboris/lyrics-compositor-react-graphql"
+  },
+  "scripts": {
+    "start": "nodemon index.js --ignore client",
+    "dev": "nodemon index.js --ignore client"
+  },
+  "author": "Berman Boris",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-client": "^1.9.3",
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "connect-history-api-fallback": "^1.3.0",
+    "connect-mongo": "^1.3.2",
+    "express": "^4.16.1",
+    "express-graphql": "^0.6.1",
+    "express-session": "^1.15.6",
+    "graphql": "^0.11.6",
+    "html-webpack-plugin": "^2.30.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.14",
+    "nodemon": "*",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.0.0",
+    "react-apollo": "^1.4.16",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.2.0",
+    "webpack-dev-middleware": "^1.9.0"
+  }
+}
